@@ -1,0 +1,70 @@
+/* CSS Document */
+html, body, div, span,p,img, i,dl, dt, dd, ul, li {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	vertical-align:baseline;
+	background:transparent;
+	outline-style:none;/*FF*/ 
+}
+
+body {
+	line-height:1;
+	font: 12px/150% Arial, "微软雅黑", Verdana, "\5b8b\4f53";
+}
+ 
+a{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;   
+	color: #999;
+	text-decoration: none;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+/*css为clearfix，清除浮动*/
+.clearfix::before,
+.clearfix::after {
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix:after {clear:both;} 
+.clearfix { 
+	*zoom:1;/*IE/7/6*/
+}
+
+ul {
+	list-style: none;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.al {
+	text-align: left;
+}
+
+.ar {
+	text-align: right;
+}
+
+.jd_w {
+	width: 1190px;
+	margin: auto;
+}

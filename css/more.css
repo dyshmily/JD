@@ -1,0 +1,87 @@
+.jd_more .jd_w {
+	height: 1280px;
+	margin-top: 20px;
+}
+.more_list {
+	display: block;
+	width: 1200px;
+	height: 1200px;
+	margin: 0 -5px 0;
+}
+.more_item {
+	width: 230px;
+	height: 305px;
+	float: left;
+	position: relative;
+	background-color: #fff;
+	margin: 0 5px 10px;
+}
+.more_item .more_item_lk {
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.more_item .more_item_lk .more_img {
+	width: 170px;
+	height: 170px;
+	margin: 30px 30px 20px;
+}
+.more_info {
+	width: 198px;
+	height: 65px;
+	background-color: #fff;
+	clear: both;
+  padding: 0 16px 0;
+  line-height: 24px;
+  color: #666;
+}
+.more_info .more_info_title {
+  height: 36px;
+  font-size: 14px;
+  line-height: 18px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-align: left;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  color: #333;
+}
+.more_info .more_info_price {
+	width: 198px;
+	height: 25px;
+  margin-top: 10px;
+}
+.mod_price {
+	font-size: 16px;
+	color: #e33333;
+	text-align: center;
+}
+/*.more_item */
+.more_find {
+	width: 230px;
+	height: 100px;
+	position: absolute;
+	bottom: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.8);
+  opacity: 0;
+}
+.more_find .more_find_btn {
+	position: relative;
+  margin: 24px auto 0;
+  width: 60px;
+  height: 60px;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;	
+  overflow: hidden;
+}
+    

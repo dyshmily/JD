@@ -1,0 +1,230 @@
+.jd_sk {
+	margin-top: 30px;
+}
+.jd_sk .jd_w {
+	height: 275px;
+}
+.jd_sk .sk_mod {
+	width: 190px;
+	height: 275px;
+	position: relative;
+	background-color: #F23632;
+}
+.sk_mod .jd_sk_eng {
+	position: absolute;
+	left: 0px;
+	text-align: center;
+	width: 100%;
+	top: 100px;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 20px;
+}
+.sk_mod .jd_sk_icon {
+	position: absolute;
+	top: 126px;
+	width: 20px;
+	height: 33px;
+	left: 86px;
+	color: #fff;
+	font-size: 36px;
+}
+.sk_mod .jd_sk_des {
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	top: 170px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+.sk_mod .sk_destime {
+	position: absolute;
+	top: 212px;
+	left: 30px;
+	width: 135px; 
+	height: 40px;
+	/*background-color: black;*/
+}
+.sk_destime .sk_time {
+	width: 135px;
+	/*position: relative;*/
+}
+/* .sk_time .sk_line {
+	position: absolute;
+	z-index: 999999;
+	top: 10px;
+	border: 1px solid #fff;
+} */
+.sk_time .sk_times  {
+	width: 40px;
+	height: 40px;
+	/*position: absolute;*/
+	float: left;
+	text-align: center;
+	background-color: #2f3430;
+	margin-right: 5px;
+}
+.sk_time .sk_times i {
+	line-height: 40px;
+	font-size: 20px;
+	color: #fff;
+	font-weight: bold;
+}
+.sk_mod .jd_sk_title {
+	position: absolute;
+	top: 42px;
+	width: 190px;
+	height: 51px;
+	text-align: center;
+	line-height: 51px;
+	font-size: 34px;
+	color: #fff;
+}
+.jd_sk .sk_shop {
+	width: 1000px;
+	height: 275px;
+	background-color: #fff;
+}
+.jd_sk .sk_shop .sk_list {
+	position: relative;
+	width: 800px;
+	height: 275px;
+	overflow: hidden;
+}
+.jd_sk .sk_shop .sk_list img {
+	float: left;
+}
+/* .jd_sk .sk_shop .sk_list .sk_btn {
+	position: absolute;
+	border: none;
+	width: 20px;
+	height: 40px;
+	line-height: 40px;
+	background-color: rgba(0,0,0,.15);
+  font-size: 20px;
+  z-index: 2;
+  outline: none;
+} */
+.sk_lists_item {
+	width: 199px;
+	height: 275px;
+	background-color: #fff;
+	float: left;
+	border-right: 1px solid #F0F3EF; 
+	position: relative;
+}
+.sk_lists_item .sk_item_lk {
+	display: block;
+	width: 190px;
+	height: 275px;
+	text-align: center;
+	margin: auto;
+}
+
+.sk_lists_item .sk_item_img {
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	left: 50%;
+	top: 40px;
+	margin-left: -70px;
+}
+.sk_lists_item .sk_item_title {
+	position: absolute;
+	width: 160px;
+	height: 30px;
+	top: 190px;
+	padding: 0 13px;
+	line-height: 30px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #666;
+}
+.sk_item_title:hover {
+	color: #C81623;
+}
+.sk_lists_item .sk_item_price {
+	width: 160px;
+	height: 20px;
+	position: absolute;
+	padding: 1px;
+	top: 230px;
+	left: 18px;
+	line-height: 20px;
+	border: 1px solid #e6382f;
+	background-color: #e6382f;
+}
+.sk_item_price .sk_price {
+	float: left;
+	width: 80px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+}
+.sk_item_price .sk_newprice {
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.sk_item_price .sk_oldprice {
+	background-color: #fff;
+	text-decoration: line-through;
+	font-size: 12px;
+	color: #b7bcb8;
+}
+.sk_next {
+	right: 100px;
+}
+
+.sk_carousel {
+	width: 180px;
+	height: 260px;
+	padding: 8px 10px 7px;
+	float: left;
+}
+.sk_car_slider {
+	width: 180px;
+	height: 260px;
+	position: relative;
+	overflow: hidden;
+}
+.sk_slider {
+	position: absolute;
+	width: 360px;
+	height: 260px;
+}
+.sk_slider img {
+	float: left;
+}
+.sk_dir {
+	position: absolute;
+	width: 28px;
+	height: 14px;
+	left: 50%;
+	bottom: 15px;
+	margin-left: -14px;
+}
+/* .sk_dir .sk_dir_ul li {
+	background-color: #c0c0c0;
+	float: left;
+	border-radius: 3px;
+	width: 6px;
+	height: 6px;
+	margin: 4px;
+} 
+.sk_dir .sk_dir_ul .sk_active {
+	background-color: #e33333;
+}*/
+.sk_dir  span {
+	background-color: #c0c0c0;
+	float: left;
+	border-radius: 3px;
+	width: 6px;
+	height: 6px;
+	margin: 4px;
+}
+.sk_dir .sk_active {
+	background-color: #e33333;
+}
+

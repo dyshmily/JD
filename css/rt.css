@@ -1,0 +1,235 @@
+.rt_items img {
+	width: 190px;
+	height: 150px;
+	margin-top: 7px;
+}
+
+@media screen and (min-width: 976px) {
+  .rt_item {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 976px) {
+  .rt_item {
+    display: none;
+  }
+}
+
+.login_user {
+	width: 190px;
+	height: 150px;
+	background-color: #fff;
+	margin-top: 10px;
+}
+
+.jd_user {
+	position: relative;
+}
+.jd_user .user_avatar {
+	position: absolute;
+  left: 50%;
+  top: -10px;
+  margin-left: -34px;
+  width: 65px;
+  height: 65px;
+}
+.jd_user .user_avatar a {
+	display: block;
+	width: 55px;
+	height: 55px;
+	border: 5px solid #e3e1df; 
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 3px 6px 25px #c3c3c3;
+}
+.jd_user .user_avatar img {
+	width: 55px;
+	height: 55px;
+	vertical-align: middle;
+}
+.jd_user .user_select {
+	position: absolute;
+	width: 170px;
+	height: 40px;
+	background-color: #fff;
+	padding: 0 10px;
+	top: 55px;
+	text-align: center;
+}
+.jd_user .user_select a {
+	color: #666;
+	padding: 0 2px;
+}
+.jd_user .user_select p {
+	height: 20px;
+	line-height: 20px;
+}
+.newpeople {
+	height: 25px;
+	width: 190px;
+	position: absolute;
+	top: 105px;
+	left: 13px;
+}
+.newpeople .new_lk {
+	display: inline-block;
+  margin: 0 5px;
+  width: 70px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 12px;
+  text-align: center;
+  color: #e43f3b;
+	background-color: #fff;
+  box-shadow: 3px 6px 18px #c3c3c3;
+  border-radius: 13px;
+}
+.newpeople .new_lk_plus {
+	background: #363634;
+  color: #e5d790;
+}
+.rt_ad {
+	width: 190px;
+	height: 130px;
+	background-color: #fff;
+}
+.rt_news_head {
+	height: 13px;
+	padding: 8px 0 0;
+  position: relative;
+  line-height: 13px;
+  font-size: 0;
+  color: #fff;
+}
+.rt_news_head .rt_news_item {
+	font-size: 12px;
+  color: #333;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-right: 1px solid #dfe0e1;
+  height: 13px;
+  line-height: 13px;
+}    
+.rt_news_head .rt_last {
+	border-right: none;
+}
+.news_more {
+	position: absolute;
+  right: 12px;
+  top: 8px;
+  font-size: 12px;
+  color: #666;
+}
+.rt_news_content {
+	position: relative;
+  padding-top: 8px;
+  margin: 0 15px;
+  height: 88px;
+}
+.rt_content_item {
+	width: 160px;
+	height: 96px;
+	color: #666;
+  overflow: hidden;
+}
+.rt_content_item ul {
+	display: block;
+	width: 150px;
+	height: 88px;
+}
+.rt_content_item li {
+	line-height: 22px;
+  max-width: 160px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.rt_content_item li a {
+	color: #666;
+}
+.rt_content_item li a:hover {
+	color: #C81623;
+}
+.rt_news_content .news_distwo {
+	position: absolute;
+	background-color: red;
+	top: 8px;
+}
+
+/* 服务 */
+.rt_community {
+	width: 190px;
+	height: 190px;
+	background-color: #fff;
+	position: relative;
+}
+.rt_community ul {
+	width: 180px;
+	height: 180px;
+	position: absolute;
+	left: 5px;
+	border-top: 0.1px solid #ccc;
+}
+.rt_community li {
+	float: left;
+	width: 45px;
+	height: 60px;
+}
+.rt_community a {
+	display: block;
+	width: 44px;
+	text-align: center;
+	line-height: 30px;
+	padding-top: 40px;
+	position: relative;
+	color: #bea68d;
+}
+.rt_community a:hover {
+	color: #C81623;
+}
+.rt_community i {
+	position: absolute;
+	top: 17px;
+	left: 10px;
+	width: 23px;
+	height: 23px;
+	background: url("../img/server.png") no-repeat 0 -88px;
+}
+.rt_community a span {
+	width: 42px;
+	height: 27px;
+}
+.rt_community .rt_community_icon2 {
+    background: url("../img/server.png") no-repeat 0px -44px;
+}
+.rt_community .rt_community_icon3 {
+    background: url("../img/server.png") no-repeat -45px -88px;
+}
+.rt_community .rt_community_icon4 {
+    background: url("../img/server.png") no-repeat -88px 0px;
+}
+.rt_community .rt_community_icon5 {
+    background: url("../img/server.png") no-repeat -88px -44px;
+}
+.rt_community .rt_community_icon6 {
+    background: url("../img/server.png") no-repeat 0px 0px;
+}
+.rt_community .rt_community_icon7 {
+    background: url("../img/server.png") no-repeat -44px -44px;
+}
+.rt_community .rt_community_icon8 {
+    background: url("../img/server.png") no-repeat -88px -88px;
+}
+.rt_community .rt_community_icon9 {
+    background: url("../img/server.png") no-repeat -132px 0px;
+}
+.rt_community .rt_community_icon10 {
+    background: url("../img/server.png") no-repeat -132px -44px;
+}
+.rt_community .rt_community_icon11 {
+    background: url("../img/server.png") no-repeat -132px -88px;
+}
+.rt_community .rt_community_icon12 {
+    background: url("../img/server.png") no-repeat -44px 0px;
+}

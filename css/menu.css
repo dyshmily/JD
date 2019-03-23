@@ -1,0 +1,136 @@
+.jd_menu .jd_w {
+	height: 480px;
+}
+
+.lt_menu {
+	width: 190px;
+	height: 480px;
+	margin-right: 10px;
+	background-color: #fff;
+	position: relative;
+}
+.lt_menu_ul {
+	width: 190px;
+	height: 460px;
+	padding-top: 10px;
+}
+.lt_menu_ul li {
+	height: 26px;
+	line-height: 26px;
+	padding-left: 20px;
+}
+
+.lt_menu_ul li:hover {
+	background-color: #D9D9D9;
+}
+
+.lt_menu .lt_menu_ul a {
+	color: #626262;
+	font-size: 14px;
+	line-height: 26px;
+	display: block;
+}
+
+.lt_menu .lt_menu_ul a:hover {
+	color: #e33333;
+	font-size: 14px;
+}
+
+/*二级菜单*/
+.items_one_detail {
+	width: 809px;
+	height:470px;
+	background-color: #fff;
+	border: 1px solid #e2e3e4;
+	box-shadow: 2px 2px 2px #c3c3c3;
+	position: relative;
+	top: -461px;
+	left: 190px;
+	z-index: 9999;
+}
+
+.items_one_detail .items_one_detail_title {
+	margin-left: 24px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.items_one_detail_title a {
+	display: block;
+	padding: 3px 5px;
+	float: left;
+	color: #fff;
+	line-height: 24px;
+	background-color: #222;
+	margin-left: 10px;
+}
+.items_one_detail_title a i {
+	margin-left: 5px;
+}
+.items_one_detail_rows {
+	position: relative;
+}
+.items_one_detail_rows dl {
+	margin-top: 10px;
+}
+
+.items_one_detail_rows dt {
+	position: absolute;
+	height: 24px;
+	line-height: 24px;
+	left: 10px;
+	top: 13px;
+	font-size: 14px;
+}
+.items_one_detail_rows dt a {
+	display: block;
+	width: 80px;
+	text-align: right;
+	color: #222;
+}
+.items_one_detail_rows dt a:hover {
+	color: #C81623;
+}
+.items_one_detail_rows .dt i {
+	margin-left: 5px;
+}
+.items_one_detail_rows dd {
+	position: relative;
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	margin-left: 115px;
+}
+.dl_vline {
+	position: absolute;
+	left: -5px;
+	top: 5px;
+	border: 0.5px solid #999;
+	height: 17px;
+}
+.items_one_detail_rows dd a {
+	color: #666;
+	padding: 0px 3px;
+}
+.items_one_detail_rows dd a:hover {
+	color: #C81623;
+}
+
+/*---------------------------------------------------*/
+/*轮播*/
+.md_carousel {
+	width: 590px;
+	height: 480px;
+	margin-right: 10px;
+}
+
+.rt_item {
+	width: 190px;
+	height: 480px;
+	margin-right: 10px;
+}
+
+.rt_login {
+	width: 190px;
+	/*background-color: black;*/
+	height: 480px;
+}
